@@ -1,26 +1,36 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta
-    name="description"
-    content="Songhye Kim academic portfolio"
-  >
+  <meta name="description" content="Songhye Kim academic portfolio">
 
   <title>Activities | Songhye Kim</title>
 
-  <link
-    rel="icon"
-    href="assets/icons/favicon.svg"
-  >
+  <link rel="icon" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-  <link
-    rel="stylesheet"
-    href="assets/css/style.css"
-  >
+  <style>
+    .award-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 9px;
+      padding: 4px 10px;
+      border: 0;
+      border-radius: 7px;
+      background: #f3f4f6;
+      color: #626b78;
+      font-size: .75rem;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    .award-badge .award-star {
+      color: #929dad;
+      font-size: .8rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -29,17 +39,11 @@
   <header class="site-header">
     <div class="container nav">
 
-      <a
-        class="brand"
-        href="index.html"
-      >
+      <a class="brand" href="index.html">
         SONGHYE KIM
       </a>
 
-      <button
-        class="menu-btn"
-        aria-label="메뉴 열기"
-      >
+      <button class="menu-btn" aria-label="Toggle menu">
         Menu
       </button>
 
@@ -49,17 +53,11 @@
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
         <a href="projects.html">Projects</a>
-        <a
-          class="active"
-          href="activities.html"
-        >
-          Activities
-        </a>
+        <a class="active" href="activities.html">Activities</a>
       </nav>
 
     </div>
   </header>
-
 
   <!-- Main -->
   <main>
@@ -84,13 +82,36 @@
       </div>
     </section>
 
-
     <!-- Timeline -->
     <section>
       <div class="container">
-
         <div class="timeline">
 
+          <!-- CISC-W 2026 -->
+          <div class="timeline-item">
+
+            <div class="period">
+              2026
+            </div>
+
+            <h3>
+              CISC-W 2026
+            </h3>
+
+            <p>
+              Oral presentation:
+              Analysis of Open-Source Package Installation
+              Behavior by AI Agents.
+            </p>
+
+            <p>
+              <span class="award-badge">
+                <span class="award-star" aria-hidden="true">✧</span>
+                Excellence Award
+              </span>
+            </p>
+
+          </div>
 
           <!-- CISC-S 2026 -->
           <div class="timeline-item">
@@ -111,7 +132,6 @@
 
           </div>
 
-
           <!-- AI Security Training -->
           <div class="timeline-item">
 
@@ -131,7 +151,6 @@
 
           </div>
 
-
           <!-- CISC-S 2025 -->
           <div class="timeline-item">
 
@@ -149,7 +168,6 @@
             </p>
 
           </div>
-
 
           <!-- CnCS Lab -->
           <div class="timeline-item">
@@ -169,14 +187,11 @@
 
           </div>
 
-
         </div>
-
       </div>
     </section>
 
   </main>
-
 
   <!-- Footer -->
   <footer class="footer">
@@ -186,11 +201,8 @@
         © <span data-year></span> Songhye Kim
       </span>
 
-
-
     </div>
   </footer>
-
 
   <script src="assets/js/site.js"></script>
 
